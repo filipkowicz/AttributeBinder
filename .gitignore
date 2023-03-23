@@ -8,6 +8,8 @@
 /captures
 .cxx
 
+/key/*
+
 # Created by https://www.toptal.com/developers/gitignore/api/android,androidstudio,git,gradle,maven,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=android,androidstudio,git,gradle,maven,macos
 

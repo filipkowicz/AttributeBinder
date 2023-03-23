@@ -30,6 +30,13 @@ android {
     }
 }
 
+ext {
+    PUBLISH_GROUP_ID = 'io.github.filipkowicz'
+    PUBLISH_VERSION = '0.1-SNAPSHOT'
+    PUBLISH_ARTIFACT_ID = 'attributebinder'
+}
+apply from: 'publish-remote.gradle'
+
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.9.0'
