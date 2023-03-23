@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomCard" parent="Widget.Material3.CardView.Elevated" >
+        <item name="materialThemeOverlay">@style/CustomPrimary</item>
+    </style>
+
+    <style name="CustomPrimary" >
+        <item name="colorPrimary">#880088</item>
+    </style>
+
+</resources>
